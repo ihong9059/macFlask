@@ -1,0 +1,16 @@
+* 2022.12.07 21:00
+
+git clone github_http
+
+python3 -m venv myproject
+
+pip3 install flask
+pip3 install flask-migrate
+pip3 install flask-wtf
+
+chapter 2
+
+* 2022.12.08 06:10
+chapter 3 start
+
+flask shell

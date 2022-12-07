@@ -7,6 +7,8 @@ import config
 db = SQLAlchemy()
 migrate = Migrate()
 
+# def format_datetime(value, fmt='%Y년 %m월 %d일 %p %I:%M'):
+#     return value.strftime(fmt)
 
 def create_app():
     app = Flask(__name__)
@@ -24,6 +26,9 @@ def create_app():
     app.register_blueprint(main_views.bp)
     app.register_blueprint(question_views.bp)
     app.register_blueprint(answer_views.bp)
+
+    from .filter import format_datetime
+    app.jinja_env.filters['datetime'] = format_datetime
 
     return app
 
