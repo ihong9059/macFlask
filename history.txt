@@ -14,3 +14,21 @@ chapter 2
 chapter 3 start
 
 flask shell
+
+paging and filter function
+
+* 2022.12.09 13:23
+chapter 3-06 login
+
+@bp.before_app_request를 적용한 함수는 
+auth_views.py의 라우팅 함수 뿐만 아니라 모든 라우팅 함수보다 항상 먼저 실행된다.
+
+chapter 3-07 logout
+
+chapter 3-08 model 수정하기--> 추후 중요 확인 요망
+
+chapter 3-09 display writer
+
+* 2022.12.10 16:00
+chapter 3-10 db modify and delete
+chapter 3-11 suggestion function, voter
