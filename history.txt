@@ -39,3 +39,10 @@ chapter 3.14 search
 chapter 4-08 
 
 chapter 4-10 Using Gunicorn
+make log directory 
+
+* 2022.12.11 08:30
+chapter 4-07 setup python 
+    - change hostname
+    - setup local time
+    - setup python
